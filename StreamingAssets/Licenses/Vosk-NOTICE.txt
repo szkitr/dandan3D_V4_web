@@ -1,0 +1,23 @@
+声の聞き取り(個室だけ)に使う部品と、そのライセンス
+Speech recognition components used only in the private room, and their licenses
+
+1. Vosk API 0.3.44 (libvosk.dylib / libvosk.dll)
+   https://github.com/alphacep/vosk-api
+   Licensed under the Apache License, Version 2.0 (Vosk-Apache-2.0.txt).
+   The libraries were taken unchanged from the PyPI "vosk" 0.3.44 wheels
+   (macosx_10_6_universal2, win_amd64). The macOS file was renamed from
+   libvosk.dyld to libvosk.dylib.
+
+2. Japanese model vosk-model-small-ja-0.22
+   https://alphacephei.com/vosk/models
+   Listed there under the Apache License, Version 2.0 (Vosk-Apache-2.0.txt).
+   Copied unchanged into StreamingAssets/Vosk/vosk-model-small-ja-0.22.
+
+3. MinGW-w64 runtime libraries shipped with the Windows Vosk library
+   libstdc++-6.dll, libgcc_s_seh-1.dll:
+     GNU GPL version 3 with the GCC Runtime Library Exception, version 3.1.
+     https://www.gnu.org/licenses/gcc-exception-3.1.html
+   libwinpthread-1.dll:
+     MinGW-w64 winpthreads, MIT-style license (see the MinGW-w64 project,
+     https://www.mingw-w64.org/).
+   These files were taken unchanged from the same PyPI wheel.
