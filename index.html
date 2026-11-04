@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity Web Player | dandan3D V5 Web Spike</title>
+    <title>Unity Web Player | dandan3D</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
@@ -20,7 +20,7 @@
       <div id="unity-footer">
         <div id="unity-logo-title-footer"></div>
         <div id="unity-fullscreen-button"></div>
-        <div id="unity-build-title">dandan3D V5 Web Spike</div>
+        <div id="unity-build-title">dandan3D</div>
       </div>
     </div>
     <script>
@@ -52,16 +52,16 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/dandan3D_V5_WebSpike.loader.js";
+      var loaderUrl = buildUrl + "/dandan3D_web.loader.js";
       var config = {
         arguments: [],
-        dataUrl: buildUrl + "/dandan3D_V5_WebSpike.data",
-        frameworkUrl: buildUrl + "/dandan3D_V5_WebSpike.framework.js",
-        codeUrl: buildUrl + "/dandan3D_V5_WebSpike.wasm",
+        dataUrl: buildUrl + "/dandan3D_web.data",
+        frameworkUrl: buildUrl + "/dandan3D_web.framework.js",
+        codeUrl: buildUrl + "/dandan3D_web.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
-        productName: "dandan3D V5 Web Spike",
-        productVersion: "5.1",
+        productName: "dandan3D",
+        productVersion: "5.2",
         showBanner: unityShowBanner,
         // errorHandler: function(err, url, line) {
         //    alert("error " + err + " occurred at line " + line);
@@ -99,13 +99,14 @@
 
         // To lower canvas resolution on mobile devices to gain some
         // performance, uncomment the following line:
-        // config.devicePixelRatio = 1;
+        config.devicePixelRatio = 1;   // dandan3D 5.2:画質を下げる
 
 
       } else {
         // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
         canvas.style.width = "960px";
         canvas.style.height = "600px";
+        config.devicePixelRatio = 1;   // dandan3D 5.2:画質を下げる
       }
 
       document.querySelector("#unity-loading-bar").style.display = "block";
