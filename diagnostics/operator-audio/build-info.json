@@ -1,0 +1,29 @@
+{
+  "sourceCommit": "10df0c7f4c708822e935060b24b751146bde70de",
+  "buildKind": "operator-receiver-diagnostic",
+  "diagnosticQuery": "receiverDiag=1",
+  "defaultDiagnostics": false,
+  "files": {
+    "Build/dandan3D_web.data": "dac0888fbab54ff7700466c2bd9c8253c23676a01a4364e4b25e2f51b6d33087",
+    "Build/dandan3D_web.framework.js": "96c39a3fb77d37c3b309e0ebb60eca6e0f11d5be93adcc2b5fc31840af233cd0",
+    "Build/dandan3D_web.loader.js": "26f797af308baf938a1953c29573f3629eb785d029d52dc504b2c56b089d6ec1",
+    "Build/dandan3D_web.wasm": "4177b07630faa6eb528bc919dec536b218f4b3c4d6c7c4ebf9ae7c1fde5a8579",
+    "StreamingAssets/Licenses/NotoSansJP-OFL.txt": "babcfe66c8a098b2fa279bc724a3a342f8124f77ce18941fbcc1bbb39823cded",
+    "StreamingAssets/Licenses/Vosk-Apache-2.0.txt": "bb618af833c817ab01c1564bd3ec75ba4b4f9cf30910a4a2168e30a674ee8cc6",
+    "StreamingAssets/Licenses/Vosk-NOTICE.txt": "7c779238fcf3e3d2920a05ce8f1e2dee0fa657d67a8c5124b9c36ee223f6f827",
+    "StreamingAssets/UnityServicesProjectConfiguration.json": "2a675080867fdba6b91ff49b730b6d0fec1e440bf6619f9bf816adf7bb7a29b9",
+    "TemplateData/MemoryProfiler.png": "0ce87be20d0c24ab6cb73b57de2004da261cc2a641e69319c6ae3fe11fc85483",
+    "TemplateData/favicon.ico": "9c13beb90ee8f70580d52a21d5233970d1c89e71e4a34a462c22610941c3c77f",
+    "TemplateData/fullscreen-button.png": "21221581673a54b8139d408d4a3f8d2b879e86827d4b6fc53b995ff7a99ee3e9",
+    "TemplateData/progress-bar-empty-dark.png": "bbee7131afe8a3365906240d89184dc86234c119467f390bc4bc6802328fdb4d",
+    "TemplateData/progress-bar-empty-light.png": "143696c060ad43d6c30f19ff5f49000927a139a2a1e4c9f45fafaa2b90d7d2be",
+    "TemplateData/progress-bar-full-dark.png": "3306a6244dcb3926fca38a28e3ced589df8ff1beed955eb17c0bbf01c918bc62",
+    "TemplateData/progress-bar-full-light.png": "12395ea785480c5cdf12fade6e6cbf49666d5bb1cef7240c113dbcba6bdc5c87",
+    "TemplateData/style.css": "80acab5f9147ed15876d638d776c0f9c6b4c273c01c96d82d23b6c53ea96f9cf",
+    "TemplateData/unity-logo-dark.png": "c1b72d26c096487dabc948b54bc203f8dac7ed4e3f5733918798e858acb4b159",
+    "TemplateData/unity-logo-light.png": "002990aea0d946833cadc1519d5b7e50a4570bd537a0517dd79a59d3eec84da7",
+    "TemplateData/unity-logo-title-footer.png": "9e8b3bdb67c2446d16362fe59449d892100931dbbadfe6a9d923a4142b57a79f",
+    "TemplateData/webmemd-icon.png": "c56f5494640cedda273aad38d58e6ab9da625d5b3f4d875c0ff92c6192a569c2",
+    "index.html": "4e0acacbacdc87cd794a58e4f18b6947381b520fc4863bb30d966f9a9515d768"
+  }
+}
