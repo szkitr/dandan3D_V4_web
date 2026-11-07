@@ -1,0 +1,11 @@
+{
+  "sourceCommit": "fe1499dbad6dea982c03dea674ada898687aa3a4",
+  "appVersion": "5.3",
+  "change": "07-doorlight",
+  "sha256": {
+    "Build/dandan3D_web.wasm": "f001406d91bcc09455d4d49fe06fa7401f7424fadec3750d8111954878d5c041",
+    "Build/dandan3D_web.framework.js": "3b8de91b890d59a85680bae921faa6e676073addac5bfdbfb310908798fa43e0",
+    "Build/dandan3D_web.loader.js": "d79365c4773f08b51bcf92c734083ad774af881cabe47da7a9972f5aec3317d4",
+    "Build/dandan3D_web.data": "830959d03ffcd2a0eb8ffb2b0a4ba38b47de7e7e5d670852327cce1f332f19c6"
+  }
+}
